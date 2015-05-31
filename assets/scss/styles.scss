@@ -111,7 +111,7 @@ pre {
   @include border-radius($border-radius);
   border: 1px solid $color-border;
   overflow: auto;
-  overflow-y: auto;
+  overflow-y: hidden;
 
   code {
     font-family: $code;
