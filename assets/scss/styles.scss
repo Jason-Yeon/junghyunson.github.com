@@ -22,7 +22,7 @@ by Matt Graham
 
 body {
   @include font-size(1.5);
-  @include line-height(5);
+  @include line-height(2.2);
   font-family: $sans;
   color: $color-medGrey;
   margin: 0px;
@@ -111,7 +111,7 @@ pre {
   @include border-radius($border-radius);
   border: 1px solid $color-border;
   overflow: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
 
   code {
     font-family: $code;
