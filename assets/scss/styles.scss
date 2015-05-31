@@ -22,7 +22,7 @@ by Matt Graham
 
 body {
   @include font-size(1.5);
-  @include line-height(2.2);
+  @include line-height(5);
   font-family: $sans;
   color: $color-medGrey;
   margin: 0px;
